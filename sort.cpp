@@ -1,7 +1,5 @@
-// sort.cpp
-#include "sort.h"
 
-// Swap function
+// Swap 
 void swap(int& a, int& b) {
     int temp = a;
     a = b;
