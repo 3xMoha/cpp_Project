@@ -4,6 +4,27 @@
 
 To compile the code, run the following command:
 
+### Linux/Mac
+
+You can run the following code:
+
+```bash
+make         # Make the necesary files for running the code
+make run     # Run the necesary compilations and executed the code
+make clean   # Clean al the generated files (the sorted lists remain)
+```
+
+### On Windows with mingw32
+
+```bash
+mingw32-make
+mingw32-make run
+mingw32-make clean
+```
+
+
+The compilation command use inside the makefile is:
+
 ```bash
 g++ main.cpp sort.cpp sort_d.cpp complete_d.cpp complete_i.cpp task_comp.cpp task_comp_d.cpp compare.cpp -o sorting_program
 ```
