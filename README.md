@@ -1,6 +1,6 @@
 # C++ Sorting Numbers
 
-## Compilation
+## Compilation and run with Makefile
 
 To compile the code, run the following command:
 
@@ -22,15 +22,15 @@ mingw32-make run
 mingw32-make clean
 ```
 
+## Running the code without makefile
 
 The compilation command use inside the makefile is:
 
 ```bash
 g++ main.cpp sort.cpp sort_d.cpp complete_d.cpp complete_i.cpp task_comp.cpp task_comp_d.cpp compare.cpp -o sorting_program
 ```
-## Running the code
 
-Since the compiled `sorting_program.exe` already exists, with a working installation of C++, you should be able to execute `.\sorting_program.exe` inside the working folder to run the program.
+This creates the `sorting_program` executable that you can call in your cdm `.\sorting_program.exe` and the program should run normally
 
 ## Expected Output
 
